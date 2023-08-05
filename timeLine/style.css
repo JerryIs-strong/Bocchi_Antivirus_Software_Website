@@ -23,6 +23,11 @@ html,body{
 }
 
 .project:nth-child(4){
+    background: linear-gradient(to right, #d66d7578, #e2958757);
+    opacity: 0.3;
+}
+
+.project:nth-child(5){
     background: linear-gradient(to right, #fceabb, #f8b500);
     opacity: 0.3;
 }
