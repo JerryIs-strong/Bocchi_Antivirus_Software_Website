@@ -10,24 +10,7 @@ html,body{
     padding: 20px 40px;
 }
 
-.project:nth-child(1){
-    background:linear-gradient(to right, #ff00cc54, #33339948);
-}
-
-.project:nth-child(2){
-    background: linear-gradient(to left, #a1ffce, #faffd1);
-}
-
-.project:nth-child(3){
-    background: linear-gradient(to right, #9cecfb57, #65c7f782, #0052d466);
-}
-
-.project:nth-child(4){
-    background: linear-gradient(to right, #d66d7578, #e2958757);
-}
-
-.project:nth-child(5){
-    background: linear-gradient(to right, #fceabb, #f8b500);
+.project:nth-child(last){
     opacity: 0.3;
 }
 
@@ -58,4 +41,17 @@ html,body{
 
 .content{
     font-family: 'Kosugi Maru', sans-serif;
+}
+
+.img{
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    background-image: url('https://bingw.jasonzeng.dev');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
