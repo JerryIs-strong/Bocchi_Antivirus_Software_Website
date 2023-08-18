@@ -8,6 +8,11 @@ html,body{
 
 .project{
     padding: 20px 40px;
+    padding: 20px 40px;
+    background-color: #ffffffba;
+    margin: 20px;
+    border-radius: 30px;
+    backdrop-filter: blur(30px);
 }
 
 .project:nth-child(5){
